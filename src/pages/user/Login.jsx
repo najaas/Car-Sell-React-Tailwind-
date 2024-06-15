@@ -43,7 +43,9 @@ const Login = () => {
         </svg>
         Login with Google
       </button>
+      <Link to='/forget'>
       <div className="mt-10 text-sm border-b border-gray-500 py-5">Forget password?</div>
+      </Link>
       <div className="mt-4 text-sm flex justify-between items-center">
         <p className="mr-3 md:mr-0">If you don't have an account..</p>
        <Link to="/signup">
@@ -54,7 +56,8 @@ const Login = () => {
     }
     section2={
       <div className="md:block hidden w-1/2">
-            <img className="rounded-2xl max-h-[1600px]" src="https://images.unsplash.com/photo-1552010099-5dc86fcfaa38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxmcmVzaHxlbnwwfDF8fHwxNzEyMTU4MDk0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="login form image" />
+            <img className="rounded-2xl h-[500px] w-full bg-cover " src="https://media.gettyimages.com/id/157296754/video/woman-sitting-with-her-daughter-in-a-car-malshej-ghat-maharashtra-india.jpg?s=640x640&k=20&c=Sgijkwnnnb0uSgRmv2NiYuV7Z3LNgZFzhugZMu5fTAI=" 
+            />
           </div>
     }
     />

@@ -168,11 +168,7 @@ const RegisterForm = () => {
                                 </button>
                             </div>
                             <hr className="mb-6 border-t" />
-                            <div className="text-center">
-                                <a className="inline-block text-sm text-blue-500 dark:text-blue-500 align-baseline hover:text-blue-800" href="#">
-                                    Forgot Password?
-                                </a>
-                            </div>
+                           
                             <div className="text-center">
                                 <a className="inline-block text-sm text-blue-500 dark:text-blue-500 align-baseline hover:text-blue-800" href="./login">
                                     Already have an account? Login!
