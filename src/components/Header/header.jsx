@@ -18,7 +18,7 @@ const header = () => {
     <>
    
 
-    <div className='w-full h-14 flex justify-between items-center bg-cyan-500 border-b-2 border-black'>
+    <div className='w-full h-14 flex justify-between items-center  border-black absolute'>
       <Logo />
       <Nav />
       <Slbutten />

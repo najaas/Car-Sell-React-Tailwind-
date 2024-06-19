@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import UserLayout from './layout/layout'
 import Login from './pages/user/Login'
 import Signup from './pages/user/signup'
-import Home from './pages/user/home'
+import Home from './pages/user/Home'
 import Btn from './components/btn'
 import Forget from './pages/user/ForgetPassword/forgetpass'
 import Otp from './pages/user/ForgetPassword/Otppage'
@@ -17,7 +17,8 @@ const  App=()=> {
 <Routes >
   <Route path='/' element={<UserLayout/>}>
 <Route path='/home' element={<Home/>}/>
-</Route>\
+</Route>
+
 <Route path='/success' element={<Success/>}/>
 <Route path='/newpassword' element={<NewPassword/>}/>
 <Route path='/otp' element={<Otp/>}/>
@@ -25,7 +26,6 @@ const  App=()=> {
 <Route path='/login' element={<Login/>}/>
 <Route path='/signup' element={<Signup/>}/>
 <Route path='/btn' element={<Btn/>}/>
-
 
 </Routes>
 </BrowserRouter>   
