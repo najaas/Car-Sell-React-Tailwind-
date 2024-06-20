@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Background = ({ playStatus, hero }) => {
+
     if (playStatus) {
         return (
             <video style={{ width: '100%', height: '100%', objectFit: 'cover' }} autoPlay loop muted>
@@ -25,5 +26,6 @@ else if(hero===4){
 }
     return null;
 };
+
 
 export default Background;
