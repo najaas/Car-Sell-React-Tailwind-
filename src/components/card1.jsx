@@ -17,7 +17,7 @@ const Card1 = () => {
           <li className='text-xl'>Free RC transfer</li>
         </ul>
         
-        <div className="md:w-1/2 lg:w-3/5">
+        <div className="md:w-1/2 lg:w-3/5" data-aos="flip-left">
           <img 
             className="w-full h-auto object-cover rounded"
             src="https://www.thestatesman.com/wp-content/uploads/2022/03/iStock-588605048-1.jpg" 

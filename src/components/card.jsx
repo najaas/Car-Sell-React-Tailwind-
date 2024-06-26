@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className="w-full min-h-screen bg-black p-4 overflow-y-auto">
+    <div data-aos="fade-left" className="w-full min-h-screen bg-black p-4 overflow-y-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {Array(4).fill('').map((_, index) => (
           <div key={index} className="w-full h-[60vh] border-2 border-black rounded-3xl overflow-hidden">

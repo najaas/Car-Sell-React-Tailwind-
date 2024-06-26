@@ -18,7 +18,7 @@ const header = () => {
     <>
    
 
-    <div className='w-full h-14 flex justify-between items-center  border-black bg-black'>
+    <div className='w-full h-14 flex justify-between items-center  border-black bg-black fixed z-20' data-aos="fade-in">
       <Logo />
       <Nav />
       <Slbutten />

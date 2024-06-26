@@ -11,14 +11,14 @@ const Background = ({ playStatus, hero }) => {
 
   if (playStatus) {
     return (
-      <video className="w-[90vw] h-[90vh] object-cover rounded-2xl" autoPlay loop muted playsInline>
+      <video className="w-[90vw] h-[82vh] object-cover rounded-2xl" autoPlay loop muted playsInline>
         <source src="https://cdn.pixabay.com/video/2023/10/12/184734-873923034_large.mp4" type="video/mp4" />
       </video>
     );
   } else if (hero >= 0 && hero < images.length) {
     return (
       <img 
-        className="w-[90vw] h-[90vh] object-cover rounded-2xl"
+        className="w-[90vw] h-[82vh] object-cover rounded-2xl"
         src={images[hero]} 
         alt={`Background ${hero + 1}`}
       />

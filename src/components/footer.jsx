@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 const footer = () => {
   return (
-    <footer class="font-sans tracking-wide bg-black px-8 py-12">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
+    <footer class="font-sans tracking-wide bg-black px-8 py-12" >
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10" data-aos="fade-up">
       <div>
         <div className='w-60 h-14 flex justify-evenly' >
 

@@ -22,7 +22,7 @@ const Banner = () => {
   }, [])
 
   return (
-    <div className='relative w-full h-[92vh] flex items-center justify-center bg-black '>
+    <div className='relative w-full h-screen flex items-center justify-center bg-black z-10 ' data-aos="fade-down">
       <Background playStatus={playStatus} hero={hero} />
       <div className="absolute inset-0 flex items-center">
         <Icon
