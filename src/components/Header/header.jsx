@@ -18,7 +18,7 @@ const header = () => {
     <>
    
 
-    <div className='w-full h-14 flex justify-between items-center  border-black absolute'>
+    <div className='w-full h-14 flex justify-between items-center  border-black bg-black'>
       <Logo />
       <Nav />
       <Slbutten />
@@ -29,7 +29,7 @@ const header = () => {
     <div className={`w-full absolute h-[300px] flex items-center justify-center  md:hidden ${change ? 'hidden':'block'} `} >
     <div className='w-3/4 h-3/4 bg-white rounded-lg shadow-black shadow-lg flex justify-evenly flex-col  '>
 
-    <Link to="#" className='flex items-center hover:bg-white hover:shadow-md hover:shadow-black h-[40px] w-full justify-center ' >
+    <Link to="/success" className='flex items-center hover:bg-white hover:shadow-md hover:shadow-black h-[40px] w-full justify-center ' >
           HOME
         </Link>
          <Link to="#" className='flex items-center hover:bg-white hover:shadow-md hover:shadow-black h-[40px] w-full justify-center ' >
