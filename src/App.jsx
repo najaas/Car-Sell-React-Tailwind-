@@ -11,6 +11,7 @@ import NewPassword from './pages/user/ForgetPassword/newpassword';
 import Success from './pages/user/ForgetPassword/success';
 import Card from './components/card';
 import Card1 from './components/card1';
+import Header from './components/Header/header';
 
 
 const  App=()=> {
@@ -31,6 +32,7 @@ const  App=()=> {
 <Route path='/btn' element={<Btn/>}/>
 <Route path='/card' element={<Card/>}/>
 <Route path='/card1' element={<Card1/>}/>
+<Route path='/header' element={<Header/>}/>
 
 </Routes>
 </BrowserRouter>   

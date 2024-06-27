@@ -4,7 +4,7 @@ import { GoDot } from "react-icons/go";
 
 const Icon = ({ playStatus, hero, herodata, setHero, setPlayStatus }) => {
   return (
-    <div className='w-full h-full flex flex-col justify-between p-16 md:p-20'>
+    <div className='w-full h-full flex flex-col justify-between p-20 md:p-36'>
       <div className='text-white text-3xl md:text-5xl lg:text-6xl font-medium'>
         <p>{herodata.text1}</p>
         <p>{herodata.text2}</p>

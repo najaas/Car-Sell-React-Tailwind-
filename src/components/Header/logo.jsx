@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const logo = () => {
   return (
-    <div className='pr-5 lg:w-[15%] flex items-center justify-center font-black text-4xl text-white'>
-        <Link to="#">Logoo</Link>
+    <div className=' m-4 lg:w-[15%]  flex items-center justify-center font-black text-4xl text-white'>
+        <Link to="/home">Logoo</Link>
     </div>
   )
 }
