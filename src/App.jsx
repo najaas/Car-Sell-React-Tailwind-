@@ -12,6 +12,7 @@ import Success from './pages/user/ForgetPassword/success';
 import Card from './components/card';
 import Card1 from './components/card1';
 import Header from './components/Header/header';
+import Card2 from './pages/user/card2'
 
 
 const  App=()=> {
@@ -33,6 +34,8 @@ const  App=()=> {
 <Route path='/card' element={<Card/>}/>
 <Route path='/card1' element={<Card1/>}/>
 <Route path='/header' element={<Header/>}/>
+<Route path='/card2' element={<Card2/>}/>
+
 
 </Routes>
 </BrowserRouter>   
