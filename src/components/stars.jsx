@@ -31,8 +31,8 @@ const RatingStars = () => {
   };
 
   return (
-    <div className="flex items-center justify-center">
-      <div className="rating-stars w-[50vmin] p-[1.75vmin] pl-[3vmin] pr-[10vmin] bg-gradient-to-r from-white/60 to-transparent rounded-[5vmin] relative">
+    <div className="w-full flex items-center justify-center">
+      <div className=" w-[60%] rating-stars flex p-4 bg-gradient-to-r from-white/60 to-transparent rounded-lg relative">
         {[...Array(6)].map((_, index) => (
           <React.Fragment key={index}>
             <input
@@ -46,14 +46,14 @@ const RatingStars = () => {
             {index > 0 && (
               <label
                 htmlFor={`rs${index}`}
-                className="cursor-pointer m-[0.5vmin] ml-[0.65vmin] transition-all ease-linear"
+                className="cursor-pointer mx-1 transition-all ease-linear"
               >
                 <Star filled={rating >= index} />
               </label>
             )}
           </React.Fragment>
         ))}
-        <span className="rating-counter text-[5.5vmin] font-serif text-[#9aacc6] w-[10vmin] text-center bg-black/60 absolute top-0 right-0 h-full rounded-r-[5vmin] flex items-center justify-center transition-all ease-linear">
+        <span className="rating-counter text-2xl font-serif text-gray-500 bg-black/60 absolute top-0 right-0 h-full rounded-r-lg flex items-center justify-center transition-all ease-linear px-4">
           {rating}
         </span>
       </div>
