@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <>
       <div className='w-[60%] font-bold text-white hidden md:block' >
@@ -25,4 +25,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

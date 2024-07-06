@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Nav from './navbar';
-import Logo from './logo';
+import Nav from './Navbar';
+import Logo from './Logo';
 import SLbtn from './SLbtn'; // Assuming this is correctly named SLbtn
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";

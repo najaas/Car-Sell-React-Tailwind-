@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Banner from "./Banner";
-import Card from "../../components/card";
-import Card1 from "../../components/card1";
+import Card from "../../components/Card";
+import Card1 from "../../components/Card1";
 import Note from "./Note";
 import AOS from "aos";
 import "aos/dist/aos.css";

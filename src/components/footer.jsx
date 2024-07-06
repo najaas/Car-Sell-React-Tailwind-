@@ -1,8 +1,8 @@
 import React from 'react'
-import Logo from './Header/logo'
+import Logo from './Header/Logo'
 import { Link } from 'react-router-dom'
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer class="font-sans tracking-wide bg-black px-8 py-12" >
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10" data-aos="fade-up">
@@ -191,4 +191,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

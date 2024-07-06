@@ -1,5 +1,5 @@
 import React from 'react'
-import Forget from '../../../components/loginForm'
+import Forget from '../../../components/LoginForm'
 import { Link } from 'react-router-dom'
 
 

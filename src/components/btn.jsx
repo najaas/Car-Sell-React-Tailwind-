@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FiMenu } from "react-icons/fi";
 
 
-const btn = () => {
+const Btn = () => {
     const [user,setUser]=useState(true)
     const btnn = ()=>{
     setUser(!user)
@@ -21,4 +21,4 @@ const btn = () => {
   )
 }
 
-export default btn
+export default Btn

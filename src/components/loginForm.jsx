@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-const login = ({section,section2}) => {
+const Login = ({section,section2}) => {
   return (
 
     <>
@@ -19,4 +19,4 @@ const login = ({section,section2}) => {
   )
 }
 
-export default login
+export default Login
