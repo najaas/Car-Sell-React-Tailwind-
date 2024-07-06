@@ -79,8 +79,6 @@ const Login = () => {
             <div className="mt-6 items-center text-gray-100">
               <hr className="border-gray-300" />
               <p className="text-center text-sm">OR</p>
-              <hr className="border-gray-300" />
-            </div>
             <GoogleOAuthProvider clientId="368339787553-8h5aerg8c37hn5gmjktiru0f1pd5iaiq.apps.googleusercontent.com">
               <GoogleLogin
                 onSuccess={(credentialResponse) => {
@@ -93,6 +91,8 @@ const Login = () => {
               />
               
             </GoogleOAuthProvider>
+            
+            </div>
             
             <Link to="/forget">
               <div className="mt-10 text-sm border-b border-gray-500 py-5">

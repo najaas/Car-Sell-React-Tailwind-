@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import Login from './components/Auth/login'
 import UserLayout from './layout/layout'
 import Login from './pages/user/Login'
 import Signup from './pages/user/signup'
@@ -24,6 +23,7 @@ const  App=()=> {
 <Route path='/home' element={<Home/>}/>
 </Route>
 
+
 <Route path='/success' element={<Success/>}/>
 <Route path='/newpassword' element={<NewPassword/>}/>
 <Route path='/otp' element={<Otp/>}/>
@@ -35,6 +35,7 @@ const  App=()=> {
 <Route path='/card1' element={<Card1/>}/>
 <Route path='/header' element={<Header/>}/>
 <Route path='/card2' element={<Card2/>}/>
+
 
 
 </Routes>
