@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import Banner from "./Banner";
 import Card from "../../components/card";
 import Card1 from "../../components/card1";
-import Note from "./note";
+import Note from "./Note";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const home = () => {
+const Home = () => {
 
     useEffect(() => {
         AOS.init({
@@ -39,4 +39,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

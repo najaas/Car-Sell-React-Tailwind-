@@ -1,17 +1,17 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import UserLayout from './layout/layout'
 import Login from './pages/user/Login'
-import Signup from './pages/user/signup'
+import Signup from './pages/user/Signup'
 import Home from './pages/user/Home'
 import Btn from './components/btn'
-import Forget from './pages/user/ForgetPassword/forgetpass'
+import Forget from './pages/user/ForgetPassword/Forgetpass'
 import Otp from './pages/user/ForgetPassword/Otppage'
-import NewPassword from './pages/user/ForgetPassword/newpassword';
-import Success from './pages/user/ForgetPassword/success';
+import NewPassword from './pages/user/ForgetPassword/Newpassword';
+import Success from './pages/user/ForgetPassword/Success';
 import Card from './components/card';
 import Card1 from './components/card1';
 import Header from './components/Header/header';
-import Card2 from './pages/user/card2'
+import Card2 from './pages/user/Card2'
 
 
 const  App=()=> {

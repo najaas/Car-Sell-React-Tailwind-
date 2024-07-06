@@ -1,7 +1,7 @@
 import React from 'react'
 import Stars from '../../components/stars' 
 
-const card2 = () => {
+const Card2 = () => {
   return (
     <div className='w-full h-screen bg-blue-300 flex justify-center items-center'>
         <div className='w-[61vw] h-[70vh]  flex justify-evenly'>
@@ -17,4 +17,4 @@ const card2 = () => {
   )
 }
 
-export default card2
+export default Card2

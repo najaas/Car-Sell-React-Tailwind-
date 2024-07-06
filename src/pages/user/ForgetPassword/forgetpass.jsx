@@ -3,7 +3,7 @@ import Forget from '../../../components/loginForm'
 import { Link } from 'react-router-dom'
 
 
-const forgetpass = () => {
+const Forgetpass = () => {
   return (
         <>
         <Forget 
@@ -34,4 +34,4 @@ const forgetpass = () => {
     )
 }
 
-export default forgetpass
+export default Forgetpass
