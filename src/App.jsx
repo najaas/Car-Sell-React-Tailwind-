@@ -11,7 +11,7 @@ import Card from "./components/Card";
 import Card1 from "./components/Card1";
 import Header from "./components/Header/Head";
 import Card2 from "./pages/user/Card2";
-import Layout from "./Layoutform/Layoutform";
+import Layout from "./Layout/Layout";
 
 const App = () => {
   return (
