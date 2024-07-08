@@ -7,5 +7,9 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173
   },
-  base: '/Car-Sell-React-Tailwind/',  // Ensure this matches your repo name
+  build: {
+    rollupOptions: {
+      external: ['aos']
+    }
+  }
 });
