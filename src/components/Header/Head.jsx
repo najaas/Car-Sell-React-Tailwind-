@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Nav from './Navbarform';
-import Logo from './Logoform';
-import SLbtn from './SLbtnform'; // Assuming this is correctly named SLbtn
+import Nav from './Navbar';
+import Logo from './Logo';
+import SLbtn from './SLbtn'; // Assuming this is correctly named SLbtn
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 import { Link } from 'react-router-dom';
