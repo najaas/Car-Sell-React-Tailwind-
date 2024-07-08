@@ -9,7 +9,8 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['aos']
+      external: ['aos/dist/aos.css']
     }
   }
 });
+
