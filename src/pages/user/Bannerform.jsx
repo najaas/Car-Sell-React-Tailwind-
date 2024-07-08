@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Background from './Background'
-import Icon from './Iconbanner'
+import Background from './Backgroundform'
+import Icon from './Iconbannerform'
 
 const Banner = () => {
   const herodata = [

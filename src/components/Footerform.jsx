@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './Header/Logo'
+import Logo from './Header/Logoform'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {

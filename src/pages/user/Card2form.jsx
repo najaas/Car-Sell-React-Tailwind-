@@ -1,5 +1,5 @@
 import React from 'react'
-import Stars from '../../components/Stars' 
+import Stars from '../../components/Starsform' 
 
 const Card2 = () => {
   return (

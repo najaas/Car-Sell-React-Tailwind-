@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import Banner from "./Banner";
-import Card from "../../components/Card";
-import Card1 from "../../components/Card1";
-import Note from "./Note";
+import Banner from "./Bannerform";
+import Card from "../../components/Cardform";
+import Card1 from "../../components/Card1form";
+import Note from "./Noteform";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
