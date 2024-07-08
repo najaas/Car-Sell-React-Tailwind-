@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './Layout/Layout'
 import Login from './pages/user/Login'
 import Signup from './pages/user/Signup'
 import Home from './pages/user/Home'
@@ -12,7 +11,7 @@ import Card from './components/Card';
 import Card1 from './components/Card1';
 import Header from './components/Header/Header';
 import Card2 from './pages/user/Card2'
-
+import Layout from "./Layout/Layout";
 
 const  App=()=> {
   return (
