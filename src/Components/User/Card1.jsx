@@ -6,7 +6,7 @@ const Card1 = () => {
       <div className="mb-6 md:mb-8">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-2">WANT TO SELL YOUR CAR?</h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl">
-          SELL US YOUR CAR IN 10<br />MINUTES.
+          SELL US YOUR CAR IN 10 <br /> MINUTES.
         </h2>
       </div>
       
@@ -21,7 +21,7 @@ const Card1 = () => {
           <img 
             className="w-full h-auto object-cover rounded"
             src="https://www.thestatesman.com/wp-content/uploads/2022/03/iStock-588605048-1.jpg" 
-            alt="Luxury cars" 
+            alt="Luxury cars"
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import LoginForm from "../../components/LoginForm";
+import LoginForm from "../../Components/User/LoginForm";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
@@ -110,9 +110,9 @@ const Login = () => {
           </div>
         }
         section2={
-          <div className="md:block hidden w-1/2">
+          <div className="md:block hidden w-1/2 h-full">
             <img
-              className="rounded-2xl h-[500px] w-full bg-cover"
+              className="rounded-2xl h-[450px] w-full bg-cover"
               src="https://media.gettyimages.com/id/157296754/video/woman-sitting-with-her-daughter-in-a-car-malshej-ghat-maharashtra-india.jpg?s=640x640&k=20&c=Sgijkwnnnb0uSgRmv2NiYuV7Z3LNgZFzhugZMu5fTAI="
               alt="Login visual"
             />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const RegisterForm = () => {
     const [form, setForm] = useState({
@@ -161,9 +162,9 @@ const RegisterForm = () => {
                                 </div>
                             </div>
                             <div className="mb-6 text-center">
-                                <button
+                                <button to="/login"
                                     className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 dark:bg-blue-700 dark:text-white dark:hover:bg-blue-900 focus:outline-none focus:shadow-outline"
-                                    type="submit">
+ >
                                     Register Account
                                 </button>
                             </div>
