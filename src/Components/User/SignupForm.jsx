@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const RegisterForm = () => {
+    const navigate = useNavigate();
     const [form, setForm] = useState({
         firstName: '',
         lastName: '',
@@ -46,18 +47,30 @@ const RegisterForm = () => {
             return;
         }
 
+        console.log(form, 'form data before submitting');
+
         try {
             const response = await axios.post("http://localhost:3000/signup", form);
             console.log(response.data);
+
+            if (response.status === 200 && response.data.message === 'User registered successfully') {
+                navigate('/login');
+            } else {
+                setErrorMessage(response.data.message || 'Error submitting form. Please try again later.');
+            }
         } catch (error) {
             console.error('Error submitting form:', error);
-            if (error.code === 'ERR_NETWORK') {
+            if (error.response) {
+                console.error('Server response:', error.response.data);
+                setErrorMessage(error.response.data.message || 'Error submitting form. Please try again later.');
+            } else if (error.code === 'ERR_NETWORK') {
                 setErrorMessage('Network error. Please ensure the backend server is running.');
             } else {
                 setErrorMessage('Error submitting form. Please try again later.');
             }
         }
     };
+
     return (
         <div className="h-screen bg-gray-400 dark:bg-gray-900">
             <div className="container mx-auto flex justify-center items-center h-full px-6 py-12">
@@ -162,18 +175,18 @@ const RegisterForm = () => {
                                 </div>
                             </div>
                             <div className="mb-6 text-center">
-                                <button to="/login"
+                                <button
+                                    type="submit"
                                     className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 dark:bg-blue-700 dark:text-white dark:hover:bg-blue-900 focus:outline-none focus:shadow-outline"
- >
+                                >
                                     Register Account
                                 </button>
                             </div>
                             <hr className="mb-6 border-t" />
-                           
                             <div className="text-center">
-                                <a className="inline-block text-sm text-blue-500 dark:text-blue-500 align-baseline hover:text-blue-800" href="./login">
+                                <Link className="inline-block text-sm text-blue-500 dark:text-blue-500 align-baseline hover:text-blue-800" to="/login">
                                     Already have an account? Login!
-                                </a>
+                                </Link>
                             </div>
                         </form>
                     </div>
