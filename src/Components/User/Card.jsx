@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = () => {
   return (
@@ -7,15 +8,18 @@ const Card = () => {
         {Array(4).fill('').map((_, index) => (
           <div key={index} className="relative w-full h-[60vh] border-2 border-black rounded-3xl overflow-hidden">
             <div className="w-full h-2/4 bg-cover rounded-xl hover:scale-90 overflow-hidden transition-transform duration-300 hover:-z-50">
+             <Link to="/card2">
               <img
                 className="w-full h-full object-cover"
                 src="https://t3.ftcdn.net/jpg/03/24/72/86/360_F_324728617_VbBJliGlMNhgPH0lSyodqKo0ouKRZbav.jpg"
                 alt="Toyota"
-              />
+                />
+                </Link>
             </div>
-            <div className="absolute top-20 -z-10 rounded-xl flex flex-col items-center gap-5 justify-center w-full h-2/4 backdrop-blur-sm bg-black shadow-inner shadow-white bg-opacity-50">
-              <h1 className=' absolute top-32 md:top-48 z-50 text-4xl text-white font-bold font-mono'>Toyota </h1>
+            <div className="absolute top-20 -z-10 rounded-xl flex flex-col items-center gap-5 justify-end w-full h-2/4 backdrop-blur-sm bg-black shadow-inner shadow-white bg-opacity-50">
+              <h1 className='  top-32 md:top-58 z-50 text-4xl text-white font-bold font-mono'>Toyota </h1>
             </div>
+
           </div>
         ))}
       </div>
