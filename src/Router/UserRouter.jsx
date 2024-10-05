@@ -21,7 +21,6 @@ const UserRouter = () => {
       <Routes>
         <Route path="/" element={<UserLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/Car-Sell-React-Tailwind-" element={<Home />} />
         </Route>
 
         <Route path="/success" element={<Success />} />

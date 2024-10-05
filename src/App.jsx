@@ -7,7 +7,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
       <Route  path="/*"  element={<UserRouter/>}/>
-      
+      <Route  path="/*ar-Sell-React-Tailwind-" element={<UserRouter/>}/>
+
       <Route path="/admin/*"  element={<AdminRouter/>}/>
       </Routes>
     </BrowserRouter>
