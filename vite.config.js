@@ -12,6 +12,6 @@ export default defineConfig({
       external: ['aos/dist/aos.css']
     }
   },
-  // Add this section for GitHub Pages deployment
-  base: '/Car-Sell-React-Tailwind/',  // Ensure this matches your repository name
+  // Remove or set base to '/'
+  base: '/',
 });

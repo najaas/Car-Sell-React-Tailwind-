@@ -23,7 +23,7 @@ const Login = () => {
             </p>
             <form action="" className="flex flex-col gap-4">
               <input
-                className="p-2 mt-8 rounded-xl border"
+                 className="p-2 mt-8 rounded-xl border"
                 type="email"
                 name="email"
                 id="email"
