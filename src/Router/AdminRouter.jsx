@@ -3,9 +3,9 @@ import Adminlayout from '../Layout/Admin/Adminlayout'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from '@/Pages/Admin/Dashboard';
 
-import Userlist from "../Pages/Admin/Userlist"
-import Auctionlist from "../Pages/Admin/Auctionlist"
-import LiveAuction from "../Pages/Admin/LiveAuction"
+import Userlist from "@/Pages/Admin/Userlist"
+import Auctionlist from "@/Pages/Admin/Auctionlist"
+import LiveAuction from "@/Pages/Admin/LiveAuction"
 
 
 
