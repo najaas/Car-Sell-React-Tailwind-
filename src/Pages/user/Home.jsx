@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+ import React, { useEffect } from "react";
 import Banner from "./Banner";
 import Card from "../../Components/User/Card";
 import Card1 from "../../Components/User/Card1";
 import Note from "./Note";
 import AOS from "aos";
-import "aos/dist/aos.css";
+// import "./aos/dist/aos.css";
+import './node_modules/aos/dist/aos.css';
+
 
 const Home = () => {
 
