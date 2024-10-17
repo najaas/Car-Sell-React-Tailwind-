@@ -1,4 +1,3 @@
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
@@ -7,17 +6,17 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 5173
+    port: 5173,
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src') // Create alias for easier imports
-    }
+      '@': path.resolve(__dirname, './src'), // Create alias for easier imports
+    },
   },
   build: {
     rollupOptions: {
-      external: ['aos/dist/aos.css'], // Remove if unnecessary
-    }
+      // No need for external here unless you are excluding a package on purpose
+    },
   },
   base: '/',
 });
